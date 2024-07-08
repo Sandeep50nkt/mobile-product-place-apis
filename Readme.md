@@ -3,11 +3,11 @@
 
 ##### How to run app?
 - install java11 & maven
-- install kafka or use docker to run app which will run kafka image (docker compose up)
-- Database : This app using the H2 database, credentials can be used from application.properties file
+- install kafka or use docker to run app which will run kafka image (**[docker compose up](https://github.com/Sandeep50nkt/mobile-product-place-apis/blob/main/docker-compose.yml)**)
+- Database : This app using the H2 database, credentials can be used from **[application.properties](https://github.com/Sandeep50nkt/mobile-product-place-apis/blob/main/src/main/resources/application.properties)** file
 - Run MobilePlaceApplication.java to start this app or use command **./mvnw spring-boot:run**
-- Table creating is happening whenever app starts using **schema.sql** file
-- Data setup for the mobile product is happening whenever app starts using **data.sql** file
+- Table creating is happening whenever app starts using **[schema.sql](https://github.com/Sandeep50nkt/mobile-product-place-apis/blob/main/src/main/resources/schema.sql)** file
+- Data setup for the mobile product is happening whenever app starts using **[data.sql](https://github.com/Sandeep50nkt/mobile-product-place-apis/blob/main/src/main/resources/data.sql)** file
 
 # API Details
 
