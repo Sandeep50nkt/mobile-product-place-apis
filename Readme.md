@@ -108,9 +108,9 @@ Whenever book or return operaion successfully happen , audit history will be mai
     }
 
 - Whenever an successful booking or return happened, feed will be sent to kafka topic. This feed enable or disable configured by using the application.proprites
-###### product.kafka.enable=trueproduct.kafka.enable=true
+###### product.kafka.enable=true
 - Feed Topic is also configurable using property
-###### product.kafka.topic=product-update-feedproduct.kafka.topic=product-update-feed
+###### product.kafka.topic=product-update-feed
 
 [========]
 
